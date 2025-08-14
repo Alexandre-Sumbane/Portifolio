@@ -253,3 +253,125 @@ h1 {
         transform: translateY(-20px);
     }
 }
+
+/* ==================== RESPONSIVIDADE ==================== */
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    .cabecalho-subtitulo {
+        font-size: 1.25rem;
+    }
+
+    .foto-perfil {
+        width: 280px;
+        height: 280px;
+    }
+
+    .sobre-titulo, .projectos-titulo, .contactos-titulo {
+        font-size: 2.5rem;
+    }
+
+    .projectos-caixa {
+        gap: 1.5rem;
+    }
+
+    .projectos-card:hover {
+        transform: translateY(-8px) scale(1.02);
+    }
+}
+
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .foto-perfil {
+        width: 220px;
+        height: 220px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .cabecalho-subtitulo {
+        font-size: 1.1rem;
+        text-align: center;
+        padding: 0 1rem;
+    }
+
+    .sobre-titulo, .projectos-titulo, .contactos-titulo {
+        font-size: 2rem;
+    }
+
+    .sobre-caixa {
+        padding: 1.5rem;
+        max-width: 90%;
+    }
+
+    .projectos-card {
+        border-radius: 12px;
+    }
+
+    .projectos-imagem {
+        height: 180px;
+    }
+
+    .formulario-contacto {
+        padding: 1.5rem;
+    }
+
+    .botao-form {
+        padding: 0.8rem 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu {
+        text-align: center;
+        gap: 0.8rem;
+        font-size: 0.9rem;
+    }
+
+    .foto-perfil {
+        width: 160px;
+        height: 160px;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin: 10px;
+    }
+
+    .cabecalho-subtitulo {
+        font-size: 1rem;
+    }
+
+    .sobre-titulo, .projectos-titulo, .contactos-titulo {
+        font-size: 1.5rem;
+    }
+
+    .sobre-caixa {
+        padding: 1rem;
+    }
+
+    .projectos-imagem {
+        height: 140px;
+    }
+
+    .caixa-textos-projectos {
+        padding: 1rem;
+    }
+
+    .formulario-contacto {
+        padding: 1rem;
+    }
+
+    .botao-form {
+        font-size: 0.9rem;
+        padding: 0.6rem 1rem;
+    }
+}
